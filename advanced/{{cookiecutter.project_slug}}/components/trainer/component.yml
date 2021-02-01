@@ -1,0 +1,8 @@
+name: {{cookiecutter.trainer_component_name}}
+description: {{cookiecutter.trainer_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.trainer_docker_image_name}}
+    command: [python3, trainer.py]
+   
