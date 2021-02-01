@@ -12,15 +12,17 @@ consistent development and deployment experience from component to component to 
 
 ### Getting Started
 
-```
-
 #### Running tests
 
+TODO
 
 ### Building
 
+TODO
+
 #### Build Docker image
 
+TODO
 
 ### Learn More
 
