@@ -1,0 +1,8 @@
+name: {{cookiecutter.predictor_component_name}}
+description: {{cookiecutter.predictor_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.predictor_docker_image_name}}
+    command: [python3, predictor.py]
+   

@@ -1,0 +1,8 @@
+name: {{cookiecutter.preprocessor_component_name}}
+description: {{cookiecutter.preprocessor_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.train_test_split_docker_image_name}}
+    command: [python3, preprocessor.py]
+   

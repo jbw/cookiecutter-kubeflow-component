@@ -1,0 +1,8 @@
+name: {{cookiecutter.validation_component_name}}
+description: {{cookiecutter.validation_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.validation_docker_image_name}}
+    command: [python3, model_validator.py]
+   

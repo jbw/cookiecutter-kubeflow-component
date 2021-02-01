@@ -1,0 +1,8 @@
+name: {{cookiecutter.train_test_split_component_name}}
+description: {{cookiecutter.train_test_split_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.train_test_split_docker_image_name}}
+    command: [python3, train_test_split.py]
+   

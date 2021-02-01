@@ -1,0 +1,8 @@
+name: {{cookiecutter.explainability_component_name}}
+description: {{cookiecutter.explainability_component_description}}
+inputs:
+implementation:
+  container:
+    image: {{ cookiecutter.explainability_docker_image_name}}
+    command: [python3, explainer.py]
+   
